@@ -1,0 +1,31 @@
+# Site settings
+title: "QMSS 5070: GIS and Spatial Analysis"
+description: "Geographic Information Systems and Spatial Analysis course at Columbia University"
+url: "" # Leave empty for GitHub Pages
+baseurl: "" # Leave empty if using root domain, otherwise use "/repository-name"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+
+# Theme settings (using custom layout)
+# theme: minima  # Commented out to use custom layout
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
