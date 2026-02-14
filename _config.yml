@@ -1,8 +1,8 @@
 # Site settings
 title: "QMSS 5070: GIS and Spatial Analysis"
 description: "Geographic Information Systems and Spatial Analysis course at Columbia University"
-url: "" # Leave empty for GitHub Pages
-baseurl: "" # Leave empty if using root domain, otherwise use "/repository-name"
+url: "https://manasagnihotri.github.io"
+baseurl: "/GIS-Course" # Required for project sites: https://username.github.io/GIS-Course/
 
 # Build settings
 markdown: kramdown

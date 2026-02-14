@@ -102,15 +102,15 @@ Slides and assignments to be uploaded here.
 
 | Week | Topic | Homework |
 | ---- | ----- | -------- |
-| 1 (Jan 20) | Orientation to Spatial Thinking & What Is GIS? ([Slides](/slides/GIS%20and%20Spatial%20Analysis_Lect%201.pptx)) | HW #1 Assigned |
-| 2 (Jan 27) | Making Maps – Basic Visualization ([Slides](/slides/GIS%20and%20Spatial%20Analysis%20Lect%202%20.pptx), [Lab 1: Choropleth Mapping](https://drive.google.com/file/d/1Qhr5ALUgXbrIlQcTP5qE0gbcJ-Cxt86M/view?usp=sharing), [Lab 1: Print Layout](https://drive.google.com/file/d/1wSoL6jeJ1zSax6GRZWwKmdySGrRGwl9d/view?usp=sharing) | HW #1 Due, HW #2 Assigned |
-| 3 (Feb 3) | Exploring Spatial Data I ([Slides](/slides/GIS%20and%20Spatial%20Analysis%20Lect%203.pptx), [Lab 2 Recording](https://drive.google.com/file/d/1iQC0XLdpdBzkz3tJL40F7kgwsA3kjJUB/view?usp=sharing)) | HW #2 Due, HW #3 Assigned |
-| 4 (Feb 10) | Exploring Spatial Data II ([Slides](/slides/GIS%20and%20Spatial%20Analysis%20Week%204.pptx), [Lab 3 Recording](https://drive.google.com/file/d/1ULQ0eIYwoMw8tHiYcvOcCXRhG_NgJNfJ/view?usp=sharing)) | HW #3 Due |
-| 5 (Feb 17) | Advanced Data Wrangling, CRS & Geocoding ([Slides](/slides/GIS%20and%20Spatial%20Analysis%20Lect%205.pptx), [Lab 4: Geocoding Basics](https://drive.google.com/file/d/1ZazNAmWP4L_MRearf01bOz1gRouo_K2D/view?usp=sharing), [Lab 4: Part 2](https://drive.google.com/file/d/1OLqSq4XzJtNV4Mz-WTtKRR2CS-NDG-9W/view?usp=sharing)) | HW #4 Assigned |
-| 6 (Feb 24) | ESDA, Point Patterns & Hotspots ([Slides](/slides/GIS%20and%20Spatial%20Analysis%20Lect%206.pptx)) | HW #4 Due, HW #5 Assigned |
-| 7 (Mar 3) | R for Spatial Data & Interactive Mapping ([Slides](/slides/GIS%20Spatial%20Analytcis%20Lect%207%20and%208%20-%20Clustering.pptx)) | Midterm distributed |
+| 1 (Jan 20) | Orientation to Spatial Thinking & What Is GIS? ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis_Lect%201.pptx)) | HW #1 Assigned |
+| 2 (Jan 27) | Making Maps – Basic Visualization ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%202%20.pptx), [Lab 1: Choropleth Mapping](https://drive.google.com/file/d/1Qhr5ALUgXbrIlQcTP5qE0gbcJ-Cxt86M/view?usp=sharing), [Lab 1: Print Layout](https://drive.google.com/file/d/1wSoL6jeJ1zSax6GRZWwKmdySGrRGwl9d/view?usp=sharing) | HW #1 Due, HW #2 Assigned |
+| 3 (Feb 3) | Exploring Spatial Data I ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%203.pptx), [Lab 2 Recording](https://drive.google.com/file/d/1iQC0XLdpdBzkz3tJL40F7kgwsA3kjJUB/view?usp=sharing)) | HW #2 Due, HW #3 Assigned |
+| 4 (Feb 10) | Exploring Spatial Data II ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Week%204.pptx), [Lab 3 Recording](https://drive.google.com/file/d/1ULQ0eIYwoMw8tHiYcvOcCXRhG_NgJNfJ/view?usp=sharing)) | HW #3 Due |
+| 5 (Feb 17) | Advanced Data Wrangling, CRS & Geocoding ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%205.pptx), [Lab 4: Geocoding Basics](https://drive.google.com/file/d/1ZazNAmWP4L_MRearf01bOz1gRouo_K2D/view?usp=sharing), [Lab 4: Part 2](https://drive.google.com/file/d/1OLqSq4XzJtNV4Mz-WTtKRR2CS-NDG-9W/view?usp=sharing)) | HW #4 Assigned |
+| 6 (Feb 24) | ESDA, Point Patterns & Hotspots ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%206.pptx)) | HW #4 Due, HW #5 Assigned |
+| 7 (Mar 3) | R for Spatial Data & Interactive Mapping ([Slides]({{ site.baseurl }}/slides/GIS%20Spatial%20Analytcis%20Lect%207%20and%208%20-%20Clustering.pptx)) | Midterm distributed |
 | 8 (Mar 10) | Midterm Due & Research Design | Midterm Due, HW #6 Assigned (Due Friday, March 14) |
-| 9 (Mar 24) | Spatial Autocorrelation ([Slides](/slides/Regression%20and%20Spatial%20Regression%20Slides%20GIS.pptx), [Lab 8: GeoDa](https://drive.google.com/file/d/1hgVKaiKJhrcO-tvcJlyggiMYt8Y72CZf/view?usp=drive_link), [Lab 8: R](https://drive.google.com/file/d/1D-DAiOqBCzMLtcU4pmRePWNk4CBj7sb_/view?usp=sharing)) | HW #7 Assigned |
+| 9 (Mar 24) | Spatial Autocorrelation ([Slides]({{ site.baseurl }}/slides/Regression%20and%20Spatial%20Regression%20Slides%20GIS.pptx), [Lab 8: GeoDa](https://drive.google.com/file/d/1hgVKaiKJhrcO-tvcJlyggiMYt8Y72CZf/view?usp=drive_link), [Lab 8: R](https://drive.google.com/file/d/1D-DAiOqBCzMLtcU4pmRePWNk4CBj7sb_/view?usp=sharing)) | HW #7 Assigned |
 | 10 (Mar 31) | Regression & Spatial Dependence | HW #7 Due, HW #8 Assigned |
 | 11 (Apr 7) | Advanced Spatial Models | |
 | 12 (Apr 14) | Research Workshop | HW #8 Due |
