@@ -22,7 +22,7 @@ exclude:
   - README.md
 
 # Theme settings (using custom layout)
-# theme: minima  # Commented out to use custom layout
+theme: jekyll-theme-minimal  # Commented out to use custom layout
 
 # Kramdown settings
 kramdown:
