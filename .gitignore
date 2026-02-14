@@ -10,3 +10,12 @@ node_modules
 .DS_Store
 lab-recordings/
 lab-recordings/
+
+# Large course files (over GitHub 100MB limit) - host elsewhere or use Git LFS
+course_files/Lab Recordings/
+course_files/Week 5/HW 4/Police_Department_Incident_Reports__2018_to_Present_2024.csv
+course_files/Week 5/Lab 4/CensusTracts_2.shp
+course_files/Week 5/Lab 4/CensusTracts_2.dbf
+course_files/Week 5/Lab 4/CensusTracts_2.shx
+course_files/Week 5/Lab 4/CensusTracts_2.sbn
+course_files/Week 5/Lab 4/CensusTracts_2.sbx
