@@ -117,8 +117,8 @@ Use [PROFESSOR_DRIVE_CHECKLIST.md](PROFESSOR_DRIVE_CHECKLIST.md) in the meeting 
 |------|---------|
 | `_data/schedule.yml` | Weekly topics, homework notes, lab/slide keys |
 | `_data/drive_links.yml` | File URLs (GitHub paths or professor Drive IDs) |
-| `_includes/week_card.html` | Renders each week’s materials block |
-| `index.md` | Page sections (materials, recordings, policies) |
+| `_includes/schedule_table.html` | Week \| Topic \| Homework table (CSEE-style) |
+| `index.md` | Course info sections and schedule |
 | `PROFESSOR_DRIVE_CHECKLIST.md` | Inventory for Drive transfer (not shown on site) |
 
 To add or edit a week, update `_data/schedule.yml` and the matching keys in `_data/drive_links.yml`.

@@ -1,0 +1,11 @@
+{%- assign w = include.week -%}
+{%- assign first = true -%}
+{%- for item in w.homework -%}
+{%- unless first -%}<br />{%- endunless -%}
+{%- if item.key -%}
+{%- include material_link.html key=item.key label=item.label -%}{%- if item.note -%} {{ item.note }}{%- endif -%}
+{%- else -%}
+{{ item.text }}{%- if item.tba -%} (link TBA){%- endif -%}
+{%- endif -%}
+{%- assign first = false -%}
+{%- endfor -%}

@@ -9,22 +9,8 @@
     {% seo %}
 </head>
 <body>
-    <header class="site-header">
-        <div class="site-header__inner">
-            <a class="site-header__title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            <span class="site-header__term">Spring 2026 · Columbia</span>
-        </div>
-    </header>
-    <div class="page-layout">
-        <aside class="page-layout__sidebar">
-            {% include course_sidebar.html %}
-        </aside>
-        <main class="page-layout__main">
-            {{ content }}
-        </main>
+    <div class="wrapper">
+        {{ content }}
     </div>
-    <footer class="site-footer">
-        <p>{{ site.title }} — {{ site.description }}</p>
-    </footer>
 </body>
 </html>

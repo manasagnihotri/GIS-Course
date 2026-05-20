@@ -1,0 +1,18 @@
+<table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Topic</th>
+<th>Homework</th>
+</tr>
+</thead>
+<tbody>
+{%- for w in site.data.schedule.weeks -%}
+<tr>
+<td>{{ w.week }}</td>
+<td>{% include schedule_topic.html week=w %}</td>
+<td>{% include schedule_homework.html week=w %}</td>
+</tr>
+{%- endfor -%}
+</tbody>
+</table>
