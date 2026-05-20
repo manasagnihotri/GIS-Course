@@ -7,6 +7,20 @@ title: Home
 
 Spring '26, Columbia University
 
+**Course hub:** All slides, labs, homework, recordings, and reference documents are linked from this page.
+
+## Start here
+
+<div class="start-here" markdown="1">
+
+* {% include material_link.html key="syllabus" label="Syllabus (Spring 2026)" %}
+* {% include material_link.html key="cheatsheet" label="GIS cheat sheet" %}
+* [Full schedule](#schedule)
+* [Required software](#software)
+* [TA office hours](#teaching-assistant) (Fridays 10:00 AM – 12:00 PM, Google Meet)
+
+</div>
+
 ---
 
 ## Course Overview
@@ -29,7 +43,7 @@ Office Hours: after class or via Calendly appointment
 Virtual Office Hours on Zoom: Please email to schedule an appt. time and Zoom link on other days and times – https://columbiauniversity.zoom.us/j/2400680218  
 E-mail: eg3033@columbia.edu (primary contact); edwin.grimsley@baruch.cuny.edu (secondary contact)
 
-## Teaching Assistant
+## Teaching Assistant {#teaching-assistant}
 
 Manas Agnihotri: maa2416@columbia.edu  
 Office Hours: Fridays, 10:00 AM – 12:00 PM via Google Meet  
@@ -88,7 +102,7 @@ All assignments will be done individually. We will enforce this policy when chec
 * Mitchell, Andy. 1999. The ESRI Guide to GIS Analysis, Volume 1: Geographic Patterns and Relationships. Redlands, CA: ESRI Press.
 * Mitchell, Andy. 2005. The ESRI Guide to GIS Analysis, Volume 2: Spatial Measurements and Statistics. Redlands, CA: ESRI Press.
 
-### Software
+### Software {#software}
 * QGIS (primary open-source GIS software)
 * ArcGIS Pro (optional if provided license from QMSS)
 * GeoDa (for exploratory spatial data analysis)
@@ -96,26 +110,40 @@ All assignments will be done individually. We will enforce this policy when chec
 
 (Note: Occasional Python examples may be given, but no prior Python experience is necessary.)
 
-Slides and assignments to be uploaded here.
+## Schedule {#schedule}
 
-## Schedule (this is a work in progress, and is likely to change)
+*This schedule is updated as materials are released. Bookmark this page.*
 
-| Week | Topic | Homework |
-| ---- | ----- | -------- |
-| 1 (Jan 20) | Orientation to Spatial Thinking & What Is GIS? ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis_Lect%201.pptx)) | HW #1 Assigned |
-| 2 (Jan 27) | Making Maps – Basic Visualization ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%202%20.pptx), [Lab 1: Choropleth Mapping](https://drive.google.com/file/d/1Qhr5ALUgXbrIlQcTP5qE0gbcJ-Cxt86M/view?usp=sharing), [Lab 1: Print Layout](https://drive.google.com/file/d/1wSoL6jeJ1zSax6GRZWwKmdySGrRGwl9d/view?usp=sharing) | HW #1 Due, HW #2 Assigned |
-| 3 (Feb 3) | Exploring Spatial Data I ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%203.pptx), [Lab 2 Recording](https://drive.google.com/file/d/1iQC0XLdpdBzkz3tJL40F7kgwsA3kjJUB/view?usp=sharing)) | HW #2 Due, HW #3 Assigned |
-| 4 (Feb 10) | Exploring Spatial Data II ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Week%204.pptx), [Lab 3 Recording](https://drive.google.com/file/d/1ULQ0eIYwoMw8tHiYcvOcCXRhG_NgJNfJ/view?usp=sharing)) | HW #3 Due |
-| 5 (Feb 17) | Advanced Data Wrangling, CRS & Geocoding ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%205.pptx), [Lab 4: Geocoding Basics](https://drive.google.com/file/d/1ZazNAmWP4L_MRearf01bOz1gRouo_K2D/view?usp=sharing), [Lab 4: Part 2](https://drive.google.com/file/d/1OLqSq4XzJtNV4Mz-WTtKRR2CS-NDG-9W/view?usp=sharing)) | HW #4 Assigned |
-| 6 (Feb 24) | ESDA, Point Patterns & Hotspots ([Slides]({{ site.baseurl }}/slides/GIS%20and%20Spatial%20Analysis%20Lect%206.pptx)) | HW #4 Due, HW #5 Assigned |
-| 7 (Mar 3) | R for Spatial Data & Interactive Mapping ([Slides]({{ site.baseurl }}/slides/GIS%20Spatial%20Analytcis%20Lect%207%20and%208%20-%20Clustering.pptx)) | Midterm distributed |
-| 8 (Mar 10) | Midterm Due & Research Design | Midterm Due, HW #6 Assigned (Due Friday, March 14) |
-| 9 (Mar 24) | Spatial Autocorrelation ([Slides]({{ site.baseurl }}/slides/Regression%20and%20Spatial%20Regression%20Slides%20GIS.pptx), [Lab 8: GeoDa](https://drive.google.com/file/d/1hgVKaiKJhrcO-tvcJlyggiMYt8Y72CZf/view?usp=drive_link), [Lab 8: R](https://drive.google.com/file/d/1D-DAiOqBCzMLtcU4pmRePWNk4CBj7sb_/view?usp=sharing)) | HW #7 Assigned |
-| 10 (Mar 31) | Regression & Spatial Dependence | HW #7 Due, HW #8 Assigned |
-| 11 (Apr 7) | Advanced Spatial Models | |
-| 12 (Apr 14) | Research Workshop | HW #8 Due |
-| 13 (Apr 21) | Final Presentations | |
-| 14 (Apr 28) | Final Presentations | |
-| 15 (May 8, Friday) | Final Paper Due | Final Paper Due |
+<div class="schedule-table-wrap" markdown="1">
+
+| Week | Topic | Slides | Lab materials | Homework | Lab recording |
+| ---- | ----- | ------ | ------------- | -------- | ------------- |
+| 1 (Jan 20) | Orientation to Spatial Thinking & What Is GIS? | {% include material_link.html key="slide_1" label="Slides" %} | — | {% include material_link.html key="hw1" label="HW #1" %} (Assigned) | — |
+| 2 (Jan 27) | Making Maps – Basic Visualization | {% include material_link.html key="slide_2" label="Slides" %} | {% include material_link.html key="lab1" label="Lab 1 (ZIP)" %} | HW #1 Due. {% include material_link.html key="hw2" label="HW #2" %} (Assigned) | {% include drive_recording.html file_id="1Qhr5ALUgXbrIlQcTP5qE0gbcJ-Cxt86M" label="Lab 1: Choropleth" %}, {% include drive_recording.html file_id="1wSoL6jeJ1zSax6GRZWwKmdySGrRGwl9d" label="Lab 1: Print Layout" %} |
+| 3 (Feb 3) | Exploring Spatial Data I | {% include material_link.html key="slide_3" label="Slides" %} | {% include material_link.html key="lab2" label="Lab 2 (ZIP)" %} | HW #2 Due. {% include material_link.html key="hw3" label="HW #3" %} (Assigned) | {% include drive_recording.html file_id="1iQC0XLdpdBzkz3tJL40F7kgwsA3kjJUB" label="Lab 2 Recording" %} |
+| 4 (Feb 10) | Exploring Spatial Data II | {% include material_link.html key="slide_4" label="Slides" %} | {% include material_link.html key="lab3" label="Lab 3 (ZIP)" %} | {% include material_link.html key="hw3" label="HW #3" %} Due | {% include drive_recording.html file_id="1ULQ0eIYwoMw8tHiYcvOcCXRhG_NgJNfJ" label="Lab 3 Recording" %} |
+| 5 (Feb 17) | Advanced Data Wrangling, CRS & Geocoding | {% include material_link.html key="slide_5" label="Slides" %} | {% include material_link.html key="lab4" label="Lab 4 (ZIP)" %} | {% include material_link.html key="hw4" label="HW #4" %} (Assigned) | {% include drive_recording.html file_id="1ZazNAmWP4L_MRearf01bOz1gRouo_K2D" label="Lab 4: Geocoding Basics" %}, {% include drive_recording.html file_id="1OLqSq4XzJtNV4Mz-WTtKRR2CS-NDG-9W" label="Lab 4: Part 2" %} |
+| 6 (Feb 24) | ESDA, Point Patterns & Hotspots | {% include material_link.html key="slide_6" label="Slides" %} | {% include material_link.html key="lab5" label="Lab 5 (ZIP)" %} | HW #4 Due. {% include material_link.html key="hw5" label="HW #5" %} (Assigned) | — |
+| 7 (Mar 3) | R for Spatial Data & Interactive Mapping | {% include material_link.html key="slide_7_8" label="Slides" %} | {% include material_link.html key="lab6" label="Lab 6 (ZIP)" %} | Midterm distributed (link TBA) | — |
+| 8 (Mar 10) | Midterm Due & Research Design | — | {% include material_link.html key="lab7" label="Lab 7 (ZIP)" %} | Midterm Due; HW #6 Assigned (Due Friday, March 14) — link TBA | — |
+| 9 (Mar 24) | Spatial Autocorrelation | {% include material_link.html key="slide_9" label="Slides" %} | {% include material_link.html key="lab8" label="Lab 8 (ZIP)" %} | HW #7 Assigned — link TBA | {% include drive_recording.html file_id="1hgVKaiKJhrcO-tvcJlyggiMYt8Y72CZf" label="Lab 8: GeoDa" %}, {% include drive_recording.html file_id="1D-DAiOqBCzMLtcU4pmRePWNk4CBj7sb_" label="Lab 8: R" %} |
+| 10 (Mar 31) | Regression & Spatial Dependence | Slides TBA | {% include material_link.html key="lab9" label="Lab 9 (ZIP)" %} | HW #7 Due; HW #8 Assigned — links TBA | — |
+| 11 (Apr 7) | Advanced Spatial Models | Slides TBA | {% include material_link.html key="lab10" label="Lab 10 (ZIP)" %} | — | — |
+| 12 (Apr 14) | Research Workshop | — | {% include material_link.html key="lab11" label="Lab 11 (ZIP)" %} | HW #8 Due — link TBA | — |
+| 13 (Apr 21) | Final Presentations | — | — | — | — |
+| 14 (Apr 28) | Final Presentations | — | {% include material_link.html key="lab12" label="Lab 12 (ZIP)" %} | — | — |
+| 15 (May 8, Friday) | Final Paper Due | — | — | {% include material_link.html key="final_paper" label="Final Paper" %} Due | — |
+
+</div>
 
 **Note:** March 17 – Spring Break (NO CLASS)
+
+## Lab recordings
+
+All available lab session recordings (also linked in the schedule above):
+
+{% for rec in site.data.drive_links.recordings %}
+* Week {{ rec.week }} — {% include drive_recording.html file_id=rec.file_id label=rec.label %}
+{% endfor %}
+
+*Additional recordings will be posted as they become available.*

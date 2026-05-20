@@ -68,6 +68,37 @@ hr {
     margin: 2em 0;
 }
 
+/* Start here quick links */
+.start-here,
+.course-hub-note {
+    background-color: #f6f8fa;
+    border: 1px solid #dfe2e5;
+    border-radius: 6px;
+    padding: 1em 1.25em;
+    margin: 1em 0 1.5em;
+}
+
+.start-here ul {
+    margin-bottom: 0;
+}
+
+/* Schedule table scroll on small screens */
+.schedule-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1.5em 0;
+}
+
+.schedule-table-wrap table {
+    margin: 0;
+    min-width: 720px;
+    white-space: normal;
+}
+
+.schedule-table-wrap table td {
+    vertical-align: top;
+}
+
 /* Table Styles */
 table {
     width: 100%;
@@ -97,6 +128,17 @@ table tr:hover {
     background-color: #f6f8fa;
 }
 
+/* Site header */
+.site-header {
+    border-bottom: 1px solid #eaecef;
+    margin-bottom: 1.5em;
+    padding-bottom: 0.75em;
+}
+
+.site-header a {
+    font-weight: 600;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
@@ -111,11 +153,8 @@ table tr:hover {
         font-size: 1.35em;
     }
     
-    table {
+    .schedule-table-wrap table {
         font-size: 0.85em;
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
     }
 }
 

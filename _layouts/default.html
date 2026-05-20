@@ -12,6 +12,9 @@
     {% seo %}
 </head>
 <body>
+    <header class="site-header">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </header>
     <main>
         {{ content }}
     </main>

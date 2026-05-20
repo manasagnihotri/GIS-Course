@@ -20,9 +20,10 @@ exclude:
   - .git
   - .gitignore
   - README.md
+  - PROFESSOR_DRIVE_CHECKLIST.md
+  - GOOGLE_DRIVE_SETUP.md
 
-# Theme settings (using custom layout)
-theme: jekyll-theme-minimal  # Commented out to use custom layout
+# Using custom layout in _layouts/ (no remote theme)
 
 # Kramdown settings
 kramdown:

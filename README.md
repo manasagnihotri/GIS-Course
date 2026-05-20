@@ -91,3 +91,31 @@ A Jekyll-based course website for GitHub Pages, similar to the CSEE4121 course s
 - All content is written in Markdown
 - The site is optimized for GitHub Pages deployment
 - Custom CSS is included for academic styling
+
+## Updating course materials
+
+**Student-facing URL:** https://manasagnihotri.github.io/GIS-Course/
+
+### Weekly updates (after each class)
+
+1. Upload new files to the professor’s Google Drive folder (see [PROFESSOR_DRIVE_CHECKLIST.md](PROFESSOR_DRIVE_CHECKLIST.md)).
+2. Edit [`_data/drive_links.yml`](_data/drive_links.yml):
+   - Add new recording `file_id` entries under `recordings:`.
+   - Paste professor Drive file IDs under `professor_drive:` when migrating off GitHub hosting.
+   - Set `use_professor_drive: true` once all IDs are filled.
+3. Update the schedule row in [`index.md`](index.md) if needed (e.g. replace “link TBA” with `{% include material_link.html %}`).
+4. Test locally: `bundle exec jekyll serve` and click every link.
+5. Commit and push to `main`; GitHub Actions deploys the site automatically.
+
+### Professor Drive migration
+
+Use [PROFESSOR_DRIVE_CHECKLIST.md](PROFESSOR_DRIVE_CHECKLIST.md) in the meeting with the instructor. After links are collected, fill `professor_drive` in `_data/drive_links.yml` and enable `use_professor_drive`.
+
+### Link sources
+
+| File | Purpose |
+|------|---------|
+| `_data/drive_links.yml` | All material URLs (GitHub paths or Drive file IDs) |
+| `_includes/material_link.html` | Renders correct link per `drive_links.yml` |
+| `index.md` | Schedule table and “Start here” section |
+| `PROFESSOR_DRIVE_CHECKLIST.md` | Inventory for Drive transfer (not shown on site) |
