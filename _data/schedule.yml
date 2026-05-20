@@ -1,0 +1,130 @@
+# Weekly schedule — edit here to update the course hub.
+# Material file keys map to _data/drive_links.yml
+
+weeks:
+  - week: 1
+    date: "Jan 20"
+    topic: "Orientation to Spatial Thinking & What Is GIS?"
+    slides: slide_1
+    lab: null
+    homework:
+      - { key: hw1, label: "HW #1", note: "Assigned" }
+
+  - week: 2
+    date: "Jan 27"
+    topic: "Making Maps – Basic Visualization"
+    slides: slide_2
+    lab: { key: lab1, label: "Lab 1 (ZIP)" }
+    homework:
+      - { text: "HW #1 Due" }
+      - { key: hw2, label: "HW #2", note: "Assigned" }
+
+  - week: 3
+    date: "Feb 3"
+    topic: "Exploring Spatial Data I"
+    slides: slide_3
+    lab: { key: lab2, label: "Lab 2 (ZIP)" }
+    homework:
+      - { text: "HW #2 Due" }
+      - { key: hw3, label: "HW #3", note: "Assigned" }
+
+  - week: 4
+    date: "Feb 10"
+    topic: "Exploring Spatial Data II"
+    slides: slide_4
+    lab: { key: lab3, label: "Lab 3 (ZIP)" }
+    homework:
+      - { key: hw3, label: "HW #3", note: "Due" }
+
+  - week: 5
+    date: "Feb 17"
+    topic: "Advanced Data Wrangling, CRS & Geocoding"
+    slides: slide_5
+    lab: { key: lab4, label: "Lab 4 (ZIP)" }
+    homework:
+      - { key: hw4, label: "HW #4", note: "Assigned" }
+
+  - week: 6
+    date: "Feb 24"
+    topic: "ESDA, Point Patterns & Hotspots"
+    slides: slide_6
+    lab: { key: lab5, label: "Lab 5 (ZIP)" }
+    homework:
+      - { text: "HW #4 Due" }
+      - { key: hw5, label: "HW #5", note: "Assigned" }
+
+  - week: 7
+    date: "Mar 3"
+    topic: "R for Spatial Data & Interactive Mapping"
+    slides: slide_7_8
+    lab: { key: lab6, label: "Lab 6 (ZIP)" }
+    homework:
+      - { text: "Midterm distributed", tba: true }
+
+  - week: 8
+    date: "Mar 10"
+    topic: "Midterm Due & Research Design"
+    slides: null
+    lab: { key: lab7, label: "Lab 7 (ZIP)" }
+    homework:
+      - { text: "Midterm Due" }
+      - { text: "HW #6 Assigned (due Fri, Mar 14)", tba: true }
+
+  - week: 9
+    date: "Mar 24"
+    topic: "Spatial Autocorrelation"
+    slides: slide_9
+    lab: { key: lab8, label: "Lab 8 (ZIP)" }
+    homework:
+      - { text: "HW #7 Assigned", tba: true }
+
+  - week: 10
+    date: "Mar 31"
+    topic: "Regression & Spatial Dependence"
+    slides: null
+    slides_tba: true
+    lab: { key: lab9, label: "Lab 9 (ZIP)" }
+    homework:
+      - { text: "HW #7 Due" }
+      - { text: "HW #8 Assigned", tba: true }
+
+  - week: 11
+    date: "Apr 7"
+    topic: "Advanced Spatial Models"
+    slides: null
+    slides_tba: true
+    lab: { key: lab10, label: "Lab 10 (ZIP)" }
+    homework: []
+
+  - week: 12
+    date: "Apr 14"
+    topic: "Research Workshop"
+    slides: null
+    lab: { key: lab11, label: "Lab 11 (ZIP)" }
+    homework:
+      - { text: "HW #8 Due", tba: true }
+
+  - week: 13
+    date: "Apr 21"
+    topic: "Final Presentations"
+    slides: null
+    lab: null
+    homework: []
+
+  - week: 14
+    date: "Apr 28"
+    topic: "Final Presentations"
+    slides: null
+    lab: { key: lab12, label: "Lab 12 (ZIP)" }
+    homework: []
+
+  - week: 15
+    date: "May 8 (Fri)"
+    topic: "Final Paper Due"
+    slides: null
+    lab: null
+    homework:
+      - { key: final_paper, label: "Final Paper", note: "Due" }
+
+notes:
+  - "March 17 – Spring Break (no class)"

@@ -1,0 +1,17 @@
+<div class="recordings-grid">
+  {% for w in site.data.schedule.weeks %}
+    {% assign wk = w.week | append: "" %}
+    {% assign recs = site.data.drive_links.recordings | where: "week", w.week %}
+    {% if recs.size > 0 %}
+      <div class="recordings-group">
+        <h3 class="recordings-group__title">Week {{ w.week }} — {{ w.topic }}</h3>
+        <ul>
+          {% for rec in recs %}
+            <li>{% include drive_recording.html file_id=rec.file_id label=rec.label %}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<p class="section-note">Additional recordings will be posted as they become available.</p>

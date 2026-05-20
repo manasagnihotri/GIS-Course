@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    
     {% seo %}
 </head>
 <body>
     <header class="site-header">
-        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <div class="site-header__inner">
+            <a class="site-header__title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <span class="site-header__term">Spring 2026 · Columbia</span>
+        </div>
     </header>
-    <main>
-        {{ content }}
-    </main>
-    
-    <footer>
-        <p>{{ site.title }} - {{ site.description }}</p>
+    <div class="page-layout">
+        <aside class="page-layout__sidebar">
+            {% include course_sidebar.html %}
+        </aside>
+        <main class="page-layout__main">
+            {{ content }}
+        </main>
+    </div>
+    <footer class="site-footer">
+        <p>{{ site.title }} — {{ site.description }}</p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,17 @@
+<nav class="course-sidebar" aria-label="Course sections">
+  <p class="sidebar-label">On this page</p>
+  <ul>
+    <li><a href="#materials">Weekly materials</a></li>
+    <li><a href="#recordings">Lab recordings</a></li>
+    <li><a href="#resources">Downloads</a></li>
+    <li><a href="#about">About the course</a></li>
+    <li><a href="#people">Instructor &amp; TA</a></li>
+    <li><a href="#policies">Policies &amp; grading</a></li>
+  </ul>
+  <p class="sidebar-label">Jump to week</p>
+  <ul class="week-jump">
+    {% for w in site.data.schedule.weeks %}
+      <li><a href="#week-{{ w.week }}">W{{ w.week }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

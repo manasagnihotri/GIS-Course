@@ -115,7 +115,10 @@ Use [PROFESSOR_DRIVE_CHECKLIST.md](PROFESSOR_DRIVE_CHECKLIST.md) in the meeting 
 
 | File | Purpose |
 |------|---------|
-| `_data/drive_links.yml` | All material URLs (GitHub paths or Drive file IDs) |
-| `_includes/material_link.html` | Renders correct link per `drive_links.yml` |
-| `index.md` | Schedule table and “Start here” section |
+| `_data/schedule.yml` | Weekly topics, homework notes, lab/slide keys |
+| `_data/drive_links.yml` | File URLs (GitHub paths or professor Drive IDs) |
+| `_includes/week_card.html` | Renders each week’s materials block |
+| `index.md` | Page sections (materials, recordings, policies) |
 | `PROFESSOR_DRIVE_CHECKLIST.md` | Inventory for Drive transfer (not shown on site) |
+
+To add or edit a week, update `_data/schedule.yml` and the matching keys in `_data/drive_links.yml`.

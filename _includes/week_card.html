@@ -1,0 +1,70 @@
+{% assign w = include.week %}
+<article class="week-card" id="week-{{ w.week }}">
+  <header class="week-card__header">
+    <div class="week-card__meta">
+      <span class="week-badge">Week {{ w.week }}</span>
+      <span class="week-date">{{ w.date }}</span>
+    </div>
+    <h3 class="week-card__title">{{ w.topic }}</h3>
+  </header>
+  <div class="week-card__resources">
+    <div class="resource-item">
+      <span class="resource-label">Slides</span>
+      <span class="resource-value">
+        {% if w.slides %}
+          {% include material_link.html key=w.slides label="Download" %}
+        {% elsif w.slides_tba %}
+          <span class="muted">Coming soon</span>
+        {% else %}
+          <span class="muted">—</span>
+        {% endif %}
+      </span>
+    </div>
+    <div class="resource-item">
+      <span class="resource-label">Lab</span>
+      <span class="resource-value">
+        {% if w.lab %}
+          {% include material_link.html key=w.lab.key label=w.lab.label %}
+        {% else %}
+          <span class="muted">—</span>
+        {% endif %}
+      </span>
+    </div>
+    <div class="resource-item">
+      <span class="resource-label">Homework</span>
+      <span class="resource-value">
+        {% if w.homework.size > 0 %}
+          <ul class="inline-list">
+            {% for item in w.homework %}
+              <li>
+                {% if item.key %}
+                  {% include material_link.html key=item.key label=item.label %}
+                  {% if item.note %}<span class="hw-note">{{ item.note }}</span>{% endif %}
+                {% else %}
+                  {{ item.text }}{% if item.tba %} <span class="tag tag-tba">link TBA</span>{% endif %}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <span class="muted">—</span>
+        {% endif %}
+      </span>
+    </div>
+    <div class="resource-item">
+      <span class="resource-label">Recording</span>
+      <span class="resource-value">
+        {% assign recs = site.data.drive_links.recordings | where: "week", w.week %}
+        {% if recs.size > 0 %}
+          <ul class="inline-list">
+            {% for rec in recs %}
+              <li>{% include drive_recording.html file_id=rec.file_id label=rec.label %}</li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <span class="muted">—</span>
+        {% endif %}
+      </span>
+    </div>
+  </div>
+</article>
