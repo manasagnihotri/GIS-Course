@@ -1,18 +1,71 @@
-<table>
+<div class="schedule-wrap">
+<table class="schedule">
 <thead>
 <tr>
 <th>Week</th>
 <th>Topic</th>
+<th>Slides</th>
+<th>Lab files</th>
 <th>Homework</th>
+<th>Recording</th>
 </tr>
 </thead>
 <tbody>
 {%- for w in site.data.schedule.weeks -%}
+{%- assign slide_url = w.slides.url | default: "" | strip -%}
+{%- assign lab_url = w.lab.url | default: "" | strip -%}
 <tr>
-<td>{{ w.week }}</td>
-<td>{% include schedule_topic.html week=w %}</td>
-<td>{% include schedule_homework.html week=w %}</td>
+<td>{{ w.week }}<br /><span class="week-date">{{ w.date }}</span></td>
+<td>{{ w.topic }}</td>
+<td>
+  {%- if slide_url.size > 0 -%}
+  <a href="{{ slide_url }}">{{ w.slides.label | default: "Slides" }}</a>
+  {%- else -%}
+  —
+  {%- endif -%}
+</td>
+<td>
+  {%- if lab_url.size > 0 -%}
+  {%- if lab_url contains "://" -%}
+  <a href="{{ lab_url }}">{{ w.lab.label | default: "Lab" }}</a>
+  {%- else -%}
+  <a href="{{ lab_url | relative_url }}">{{ w.lab.label | default: "Lab" }}</a>
+  {%- endif -%}
+  {%- else -%}
+  —
+  {%- endif -%}
+</td>
+<td>
+  {%- if w.homework.size > 0 -%}
+    {%- assign hw_shown = 0 -%}
+    {%- for item in w.homework -%}
+      {%- assign hw_url = item.url | default: "" | strip -%}
+      {%- if hw_shown > 0 -%}<br />{%- endif -%}
+      {%- if hw_url.size > 0 -%}
+      <a href="{{ hw_url }}">{{ item.text }}</a>
+      {%- else -%}
+      {{ item.text }}
+      {%- endif -%}
+      {%- assign hw_shown = hw_shown | plus: 1 -%}
+    {%- endfor -%}
+  {%- else -%}
+  —
+  {%- endif -%}
+</td>
+<td>
+  {%- assign rec_shown = 0 -%}
+  {%- for rec in w.recording -%}
+    {%- assign rec_url = rec.url | default: "" | strip -%}
+    {%- if rec_url.size > 0 -%}
+      {%- if rec_shown > 0 -%}<br />{%- endif -%}
+      <a href="{{ rec_url }}">{{ rec.label | default: "Recording" }}</a>
+      {%- assign rec_shown = rec_shown | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if rec_shown == 0 -%}—{%- endif -%}
+</td>
 </tr>
 {%- endfor -%}
 </tbody>
 </table>
+</div>

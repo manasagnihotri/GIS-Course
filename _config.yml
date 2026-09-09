@@ -22,6 +22,8 @@ exclude:
   - README.md
   - PROFESSOR_DRIVE_CHECKLIST.md
   - GOOGLE_DRIVE_SETUP.md
+  - slides
+  - course_files
 
 # Using custom layout in _layouts/ (no remote theme)
 

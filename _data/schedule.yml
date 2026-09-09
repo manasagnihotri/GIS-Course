@@ -1,130 +1,229 @@
-# Weekly schedule — edit here to update the course hub.
-# Material file keys map to _data/drive_links.yml
+# Weekly schedule — this is the only file you edit to change the table.
+#
+# To show a file to students, paste a full URL into that item's url.
+# Leave url blank ("") and the cell stays "—" on the site.
+#
+# Recording example:
+#   recording:
+#     - label: "Lab recording"
+#       url: "https://drive.google.com/file/d/FILE_ID/view"
+#
+# Example:
+#   slides:
+#     label: "Slides"
+#     url: "https://drive.google.com/file/d/FILE_ID/view"
 
 weeks:
   - week: 1
-    date: "Jan 20"
+    date: "Sept 9"
     topic: "Orientation to Spatial Thinking & What Is GIS?"
-    slides: slide_1
-    lab: null
+    slides:
+      label: "Slides"
+      url: "https://docs.google.com/presentation/d/1bPkt0iL2o4M37rEaAWKZ4kbUQJLwfSH3/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
+    lab:
+      label: ""
+      url: ""
     homework:
-      - { key: hw1, label: "HW #1", note: "Assigned" }
+      - text: "HW1"
+        url: "https://docs.google.com/document/d/1Wk5r98fMDWfKiRzKWQL763kibaSELvmg/edit?usp=drive_link&ouid=117858230588835972887&rtpof=true&sd=true"
+    recording: []
 
   - week: 2
-    date: "Jan 27"
+    date: "Sept 16"
     topic: "Making Maps – Basic Visualization"
-    slides: slide_2
-    lab: { key: lab1, label: "Lab 1 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 1 (ZIP)"
+      url: "/assets/labs/lab-01.zip"
     homework:
-      - { text: "HW #1 Due" }
-      - { key: hw2, label: "HW #2", note: "Assigned" }
+      - text: "HW #1 due"
+        url: ""
+      - text: "HW #2 assigned"
+        url: ""
+    recording: []
 
   - week: 3
-    date: "Feb 3"
+    date: "Sept 23"
     topic: "Exploring Spatial Data I"
-    slides: slide_3
-    lab: { key: lab2, label: "Lab 2 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 2 (ZIP)"
+      url: "/assets/labs/lab-02.zip"
     homework:
-      - { text: "HW #2 Due" }
-      - { key: hw3, label: "HW #3", note: "Assigned" }
+      - text: "HW #2 due"
+        url: ""
+      - text: "HW #3 assigned"
+        url: ""
+    recording: []
 
   - week: 4
-    date: "Feb 10"
+    date: "Sept 30"
     topic: "Exploring Spatial Data II"
-    slides: slide_4
-    lab: { key: lab3, label: "Lab 3 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 3 (ZIP)"
+      url: "/assets/labs/lab-03.zip"
     homework:
-      - { key: hw3, label: "HW #3", note: "Due" }
+      - text: "HW #3 due"
+        url: ""
+    recording: []
 
   - week: 5
-    date: "Feb 17"
+    date: "Oct 7"
     topic: "Advanced Data Wrangling, CRS & Geocoding"
-    slides: slide_5
-    lab: { key: lab4, label: "Lab 4 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 4 (ZIP)"
+      url: "/assets/labs/lab-04.zip"
     homework:
-      - { key: hw4, label: "HW #4", note: "Assigned" }
+      - text: "HW #4 assigned"
+        url: ""
+    recording: []
 
   - week: 6
-    date: "Feb 24"
+    date: "Oct 14"
     topic: "ESDA, Point Patterns & Hotspots"
-    slides: slide_6
-    lab: { key: lab5, label: "Lab 5 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 5 (ZIP)"
+      url: "/assets/labs/lab-05.zip"
     homework:
-      - { text: "HW #4 Due" }
-      - { key: hw5, label: "HW #5", note: "Assigned" }
+      - text: "HW #4 due"
+        url: ""
+      - text: "HW #5 assigned"
+        url: ""
+    recording: []
 
   - week: 7
-    date: "Mar 3"
+    date: "Oct 21"
     topic: "R for Spatial Data & Interactive Mapping"
-    slides: slide_7_8
-    lab: { key: lab6, label: "Lab 6 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 6 (ZIP)"
+      url: "/assets/labs/lab-06.zip"
     homework:
-      - { text: "Midterm distributed", tba: true }
+      - text: "Midterm distributed"
+        url: ""
+    recording: []
 
   - week: 8
-    date: "Mar 10"
+    date: "Oct 28"
     topic: "Midterm Due & Research Design"
-    slides: null
-    lab: { key: lab7, label: "Lab 7 (ZIP)" }
+    slides:
+      label: ""
+      url: ""
+    lab:
+      label: "Lab 7 (ZIP)"
+      url: "/assets/labs/lab-07.zip"
     homework:
-      - { text: "Midterm Due" }
-      - { text: "HW #6 Assigned (due Fri, Mar 14)", tba: true }
+      - text: "Midterm due"
+        url: ""
+      - text: "HW #6 assigned"
+        url: ""
+    recording: []
 
   - week: 9
-    date: "Mar 24"
+    date: "Nov 4"
     topic: "Spatial Autocorrelation"
-    slides: slide_9
-    lab: { key: lab8, label: "Lab 8 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 8 (ZIP)"
+      url: "/assets/labs/lab-08.zip"
     homework:
-      - { text: "HW #7 Assigned", tba: true }
+      - text: "HW #7 assigned"
+        url: ""
+    recording: []
 
   - week: 10
-    date: "Mar 31"
+    date: "Nov 11"
     topic: "Regression & Spatial Dependence"
-    slides: null
-    slides_tba: true
-    lab: { key: lab9, label: "Lab 9 (ZIP)" }
+    slides:
+      label: "Slides"
+      url: ""
+    lab:
+      label: "Lab 9 (ZIP)"
+      url: "/assets/labs/lab-09.zip"
     homework:
-      - { text: "HW #7 Due" }
-      - { text: "HW #8 Assigned", tba: true }
+      - text: "HW #7 due"
+        url: ""
+      - text: "HW #8 assigned"
+        url: ""
+    recording: []
 
   - week: 11
-    date: "Apr 7"
+    date: "Nov 18"
     topic: "Advanced Spatial Models"
-    slides: null
-    slides_tba: true
-    lab: { key: lab10, label: "Lab 10 (ZIP)" }
+    slides:
+      label: ""
+      url: ""
+    lab:
+      label: "Lab 10 (ZIP)"
+      url: "/assets/labs/lab-10.zip"
     homework: []
+    recording: []
 
   - week: 12
-    date: "Apr 14"
+    date: "Nov 25"
     topic: "Research Workshop"
-    slides: null
-    lab: { key: lab11, label: "Lab 11 (ZIP)" }
+    slides:
+      label: ""
+      url: ""
+    lab:
+      label: "Lab 11 (ZIP)"
+      url: "/assets/labs/lab-11.zip"
     homework:
-      - { text: "HW #8 Due", tba: true }
+      - text: "HW #8 due"
+        url: ""
+    recording: []
 
   - week: 13
-    date: "Apr 21"
+    date: "Dec 2"
     topic: "Final Presentations"
-    slides: null
-    lab: null
+    slides:
+      label: ""
+      url: ""
+    lab:
+      label: ""
+      url: ""
     homework: []
+    recording: []
 
   - week: 14
-    date: "Apr 28"
+    date: "Dec 9"
     topic: "Final Presentations"
-    slides: null
-    lab: { key: lab12, label: "Lab 12 (ZIP)" }
+    slides:
+      label: ""
+      url: ""
+    lab:
+      label: "Lab 12 (ZIP)"
+      url: "/assets/labs/lab-12.zip"
     homework: []
+    recording: []
 
   - week: 15
-    date: "May 8 (Fri)"
+    date: "Dec 16"
     topic: "Final Paper Due"
-    slides: null
-    lab: null
+    slides:
+      label: ""
+      url: ""
+    lab:
+      label: ""
+      url: ""
     homework:
-      - { key: final_paper, label: "Final Paper", note: "Due" }
-
-notes:
-  - "March 17 – Spring Break (no class)"
+      - text: "Final paper due"
+        url: ""
+    recording: []

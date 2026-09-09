@@ -1,7 +1,0 @@
-{%- assign dl = site.data.drive_links -%}
-{%- assign pd = dl.professor_drive[include.key] -%}
-{%- if dl.use_professor_drive and pd != "" and pd != nil -%}
-<a href="https://drive.google.com/file/d/{{ pd }}/view?usp=sharing">{{ include.label }}</a>
-{%- else -%}
-<a href="{{ site.baseurl }}{{ dl.github[include.key] }}">{{ include.label }}</a>
-{%- endif -%}

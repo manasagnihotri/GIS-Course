@@ -1,5 +1,0 @@
-{%- assign w = include.week -%}
-{%- assign recs = site.data.drive_links.recordings | where: "week", w.week -%}
-{%- assign has_links = false -%}
-{%- if w.slides or w.slides_tba or w.lab or recs.size > 0 -%}{%- assign has_links = true -%}{%- endif -%}
-{{ w.topic }}{%- if has_links %} ({%- assign first = true -%}{%- if w.slides -%}{%- include material_link.html key=w.slides label="Slides" -%}{%- assign first = false -%}{%- elsif w.slides_tba -%}Slides TBA{%- assign first = false -%}{%- endif -%}{%- if w.lab -%}{%- unless first %}, {% endunless -%}{%- include material_link.html key=w.lab.key label=w.lab.label -%}{%- assign first = false -%}{%- endif -%}{%- for rec in recs -%}{%- unless first %}, {% endunless -%}{%- include drive_recording.html file_id=rec.file_id label=rec.label -%}{%- assign first = false -%}{%- endfor -%}){%- endif -%}

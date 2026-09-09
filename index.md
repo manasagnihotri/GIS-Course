@@ -6,10 +6,10 @@ title: Home
 QMSS 5070 - GIS and Spatial Analysis
 {: .course-title}
 
-Spring '26, Columbia University
+Fall '26, Columbia University
 {: .course-subtitle}
 
-----
+---
 
 ## Course Overview
 
@@ -17,13 +17,12 @@ The course introduces map-making skills, utilization of spatial data, and spatia
 
 The goal of this class is to provide a relatively non-threatening introduction to GIS and its relation to hypothesis testing using statistical software in R. Students will learn to create and interpret thematic maps through hands-on experience with QGIS mapping software. Advanced topics will include spatial construction of data and the use of spatial data in quantitative applications to answer real-world problems. We will cover a range of GIS tools across various fields, including public policy, sociology, political science, and criminology. The class will include eight homework assignments, a midterm, and a final research paper. All assignments will be done individually. In this course we will answer the following questions:
 
-<ul class="text-justify">
-  <li>How are spatial data structures different from traditional data structures?</li>
-  <li>How do we acquire, manage, and analyze spatial data?</li>
-  <li>How can GIS tools be applied to real-world public policy and social science problems?</li>
-  <li>How do we create effective maps and visualizations to communicate spatial data?</li>
-</ul>
-{: .text-justify}
+- How are spatial data structures different from traditional data structures?
+- How do we acquire, manage, and analyze spatial data?
+- How can GIS tools be applied to real-world public policy and social science problems?
+- How do we create effective maps and visualizations to communicate spatial data?
+
+ {: .text-justify}
 
 ## Instructor
 
@@ -34,6 +33,9 @@ E-mail: [eg3033@columbia.edu](mailto:eg3033@columbia.edu) (primary); [edwin.grim
 
 ## Teaching Assistant
 
+Shreya Shetty: [svs2148@columbia.edu](mailto:svs2148@columbia.edu)   
+Office Hours:   
+  
 Manas Agnihotri: [maa2416@columbia.edu](mailto:maa2416@columbia.edu)  
 Office Hours: Fridays, 10:00 AM – 12:00 PM via Google Meet — [Meet link](https://meet.google.com/kvt-cwti-ehs)
 
@@ -43,18 +45,18 @@ No previous GIS experience is required; however, at least one prior course in st
 
 ## Time
 
-Tuesdays, 12:10 PM – 2:00 PM  
-302 Fayweather Hall
+Wednesday, 12:10 PM – 2:00 PM  
+214 Pupin Laboratory
 
 ## Exams
 
-Midterm: Handed out in Week 7, due Week 8  
-Final Paper: Due Week 15 (May 8, Friday) — research paper applying spatial methods from class (in lieu of a final exam)
+Midterm: October 21st (Tentative)  
+Final Paper: Due Dec 20th (Tentative) — research paper applying spatial methods from class (in lieu of a final exam)
 
 ## Grade Breakdown
 
-50% Homework Assignments (8 total, lowest score dropped)  
-20% Midterm Exam  
+45% Homework Assignments (8 total, lowest score dropped)  
+25% Midterm Exam  
 15% Final Paper  
 5% Research Presentation  
 10% Attendance & Class Participation
@@ -76,17 +78,14 @@ All assignments will be done individually. We will enforce this policy when chec
 
 **Software:** QGIS (primary), R, GeoDa; ArcGIS Pro optional (QMSS license if available). Occasional Python examples; no prior Python required.
 
-Slides, labs, homework, and recordings are linked in the schedule below.
+Slides, labs, homework, and recordings are posted in the schedule as they are released.
 
 ## Schedule (this is a work in progress, and is likely to change)
 
-{% capture url_syllabus %}{% include material_url.html key="syllabus" %}{% endcapture %}
-{% capture url_cheatsheet %}{% include material_url.html key="cheatsheet" %}{% endcapture %}
+[Syllabus]({{ site.baseurl }}/assets/docs/syllabus.pdf)
 
-[Syllabus (Spring 2026)]({{ url_syllabus | strip }})
-
-[GIS cheat sheet (PDF)]({{ url_cheatsheet | strip }})
+[GIS cheat sheet (PDF)]({{ site.baseurl }}/assets/docs/cheat-sheet.pdf)
 
 {% include schedule_table.html %}
 
-**Note:** March 17 – Spring Break (NO CLASS)
+**Note:** Term runs Sept 8 – Dec 23. Class meets Wednesdays. Materials appear in the table when they are released.
