@@ -34,10 +34,10 @@ E-mail: [eg3033@columbia.edu](mailto:eg3033@columbia.edu) (primary); [edwin.grim
 ## Teaching Assistant
 
 Shreya Shetty: [svs2148@columbia.edu](mailto:svs2148@columbia.edu)   
-Office Hours:   
+Office Hours: Thursdays, 4:00 PM to 5:00 PM - [Meet link](https://columbiauniversity.zoom.us/j/99366621336?pwd=w0u4Np6I9QZrgE83sthfcGCeVjL1Is.1)
   
 Manas Agnihotri: [maa2416@columbia.edu](mailto:maa2416@columbia.edu)  
-Office Hours: Fridays, 10:00 AM – 12:00 PM via Google Meet — [Meet link](https://meet.google.com/kvt-cwti-ehs)
+Office Hours: Fridays, 10:00 AM – 12:00 PM — [Meet link](https://meet.google.com/kvt-cwti-ehs)
 
 ## Prerequisites
 
