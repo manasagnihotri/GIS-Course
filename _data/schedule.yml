@@ -33,7 +33,7 @@ weeks:
     topic: "Making Maps – Basic Visualization"
     slides:
       label: "Slides"
-      url: ""
+      url: "https://docs.google.com/presentation/d/1zy5ekyhUvGFzNi6_Mbr1JDOY9RbiOZed/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 1 (ZIP)"
       url: "/assets/labs/lab-01.zip"
@@ -51,7 +51,7 @@ weeks:
     topic: "Exploring Spatial Data I"
     slides:
       label: "Slides"
-      url: ""
+      url: "https://docs.google.com/presentation/d/1LsMZgTQq_1f-NZMh54fHPUtgcvcdA2NB/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 2 (ZIP)"
       url: "/assets/labs/lab-02.zip"
@@ -59,15 +59,17 @@ weeks:
       - text: "HW #2 due"
         url: ""
       - text: "HW #3 assigned"
-        url: ""
-    recording: []
+        url: "https://drive.google.com/file/d/1PN8sqydjbZWoN8XHdaSxpR0Iul5xtTLA/view?usp=drive_link"
+    recording:
+      - label: "Lab recording"
+        url: "https://drive.google.com/file/d/13Gn60Zj2c1eaaRAaPqpWo2Bx1SXs4XbE/view?usp=drive_link"
 
   - week: 4
     date: "Sept 30"
     topic: "Exploring Spatial Data II"
     slides:
       label: "Slides"
-      url: ""
+      url: "https://docs.google.com/presentation/d/1bFJsBzdhjeYWv8Z1QFMzaYSwt8PPrHO_/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 3 (ZIP)"
       url: "/assets/labs/lab-03.zip"
