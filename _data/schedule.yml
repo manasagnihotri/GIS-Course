@@ -36,7 +36,7 @@ weeks:
       url: "https://docs.google.com/presentation/d/1zy5ekyhUvGFzNi6_Mbr1JDOY9RbiOZed/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 1 (ZIP)"
-      url: "/assets/labs/lab-01.zip"
+      url: "https://drive.google.com/file/d/1C9BDvUmYJfKRqV7x35vMEz_ZJ-hTnW-r/view?usp=drive_link"
     homework:
       - text: "HW #1 due"
         url: ""
@@ -54,7 +54,7 @@ weeks:
       url: "https://docs.google.com/presentation/d/1LsMZgTQq_1f-NZMh54fHPUtgcvcdA2NB/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 2 (ZIP)"
-      url: "/assets/labs/lab-02.zip"
+      url: "https://drive.google.com/file/d/1yVCboYUWs3dO2i3IjQLEDcTfNwvGC1Ao/view?usp=drive_link"
     homework:
       - text: "HW #2 due"
         url: ""
@@ -74,7 +74,7 @@ weeks:
       label: "Lab 3 (ZIP)"
       url: "/assets/labs/lab-03.zip"
     homework:
-      - text: "HW #3 due"
+      - text: ""
         url: ""
     recording: []
 
