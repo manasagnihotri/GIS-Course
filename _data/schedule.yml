@@ -108,7 +108,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 5 (ZIP)"
-      url: "/assets/labs/lab-05.zip"
+      url: ""
     homework:
       - text: "HW #4 due"
         url: ""
@@ -124,7 +124,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 6 (ZIP)"
-      url: "/assets/labs/lab-06.zip"
+      url: ""
     homework:
       - text: "Midterm distributed"
         url: ""
@@ -138,7 +138,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 7 (ZIP)"
-      url: "/assets/labs/lab-07.zip"
+      url: ""
     homework:
       - text: "Midterm due"
         url: ""
@@ -154,7 +154,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 8 (ZIP)"
-      url: "/assets/labs/lab-08.zip"
+      url: ""
     homework:
       - text: "HW #7 assigned"
         url: ""
@@ -168,7 +168,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 9 (ZIP)"
-      url: "/assets/labs/lab-09.zip"
+      url: ""
     homework:
       - text: "HW #7 due"
         url: ""
@@ -184,7 +184,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 10 (ZIP)"
-      url: "/assets/labs/lab-10.zip"
+      url: ""
     homework: []
     recording: []
 
@@ -196,7 +196,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 11 (ZIP)"
-      url: "/assets/labs/lab-11.zip"
+      url: ""
     homework:
       - text: "HW #8 due"
         url: ""
@@ -222,7 +222,7 @@ weeks:
       url: ""
     lab:
       label: "Lab 12 (ZIP)"
-      url: "/assets/labs/lab-12.zip"
+      url: ""
     homework: []
     recording: []
 
