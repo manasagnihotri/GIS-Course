@@ -89,14 +89,16 @@ weeks:
     topic: "Advanced Data Wrangling, CRS & Geocoding"
     slides:
       label: "Slides"
-      url: ""
+      url: "https://docs.google.com/presentation/d/19EO0zTFPvXV7WUVHNveLHOwBnSYPY0N1/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 4 (ZIP)"
-      url: "/assets/labs/lab-04.zip"
+      url: "https://drive.google.com/file/d/13DQMt_Ry-QoORe-KdmfrScs3DhdAI29R/view?usp=drive_link"
     homework:
       - text: "HW #4 assigned"
-        url: ""
-    recording: []
+        url: "https://drive.google.com/file/d/13f5y4HKxNLs6a8ur6Nyt2pjG6n27BaP9/view?usp=drive_link"
+    recording:
+      - label: "Lab recording"
+        url: "https://drive.google.com/file/d/1o4uknkn-xx29-S8iJa9fWQ5mshkZQ9Dy/view?usp=drive_link"
 
   - week: 6
     date: "Oct 14"
