@@ -24,7 +24,7 @@ weeks:
       label: ""
       url: ""
     homework:
-      - text: "HW1"
+      - text: "HW1 assigned"
         url: "https://docs.google.com/document/d/1Wk5r98fMDWfKiRzKWQL763kibaSELvmg/edit?usp=drive_link&ouid=117858230588835972887&rtpof=true&sd=true"
     recording: []
 
@@ -38,7 +38,7 @@ weeks:
       label: "Lab 1 (ZIP)"
       url: "https://drive.google.com/file/d/1C9BDvUmYJfKRqV7x35vMEz_ZJ-hTnW-r/view?usp=drive_link"
     homework:
-      - text: "HW #1 due"
+      - text: "HW 1 due"
         url: ""
       - text: "HW 2 assigned"
         url: "https://drive.google.com/file/d/1qhF44XyD0o0EYWWR9VCROXZeF9xhC45y/view?usp=drive_link"
@@ -56,9 +56,9 @@ weeks:
       label: "Lab 2 (ZIP)"
       url: "https://drive.google.com/file/d/1yVCboYUWs3dO2i3IjQLEDcTfNwvGC1Ao/view?usp=drive_link"
     homework:
-      - text: "HW #2 due"
+      - text: "HW 2 due"
         url: ""
-      - text: "HW #3 assigned"
+      - text: "HW 3 assigned"
         url: "https://drive.google.com/file/d/1PN8sqydjbZWoN8XHdaSxpR0Iul5xtTLA/view?usp=drive_link"
     recording:
       - label: "Lab recording"
@@ -94,7 +94,7 @@ weeks:
       label: "Lab 4 (ZIP)"
       url: "https://drive.google.com/file/d/13DQMt_Ry-QoORe-KdmfrScs3DhdAI29R/view?usp=drive_link"
     homework:
-      - text: "HW #4 assigned"
+      - text: "HW 4 assigned"
         url: "https://drive.google.com/file/d/13f5y4HKxNLs6a8ur6Nyt2pjG6n27BaP9/view?usp=drive_link"
     recording:
       - label: "Lab recording"
@@ -110,9 +110,9 @@ weeks:
       label: "Lab 5 (ZIP)"
       url: "https://drive.google.com/file/d/1oraKOMZ5dqgy4JrFJCTzJmbcKfi6XUr_/view?usp=drive_link"
     homework:
-      - text: "HW #4 due"
+      - text: "HW 4 due"
         url: ""
-      - text: "HW #5 assigned"
+      - text: "HW 5 assigned"
         url: "https://drive.google.com/file/d/1QXpUDuKXjdh4-NvuEGarGQdZWNdfqifB/view?usp=drive_link"
     recording:
       - label: "Lab recording 1"
@@ -146,7 +146,7 @@ weeks:
     homework:
       - text: "Midterm due"
         url: ""
-      - text: "HW #6 assigned"
+      - text: "HW 6 assigned"
         url: ""
     recording: []
 
@@ -160,7 +160,7 @@ weeks:
       label: "Lab 8 (ZIP)"
       url: ""
     homework:
-      - text: "HW #7 assigned"
+      - text: "HW 7 assigned"
         url: ""
     recording: []
 
@@ -174,9 +174,9 @@ weeks:
       label: "Lab 9 (ZIP)"
       url: ""
     homework:
-      - text: "HW #7 due"
+      - text: "HW 7 due"
         url: ""
-      - text: "HW #8 assigned"
+      - text: "HW 8 assigned"
         url: ""
     recording: []
 
@@ -202,7 +202,7 @@ weeks:
       label: "Lab 11 (ZIP)"
       url: ""
     homework:
-      - text: "HW #8 due"
+      - text: "HW 8 due"
         url: ""
     recording: []
 
