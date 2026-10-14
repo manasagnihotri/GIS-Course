@@ -105,16 +105,20 @@ weeks:
     topic: "ESDA, Point Patterns & Hotspots"
     slides:
       label: "Slides"
-      url: ""
+      url: "https://docs.google.com/presentation/d/1PT2Vc9fuWmJeRS0Pkk0VbBCh2i8j3pQZ/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 5 (ZIP)"
-      url: ""
+      url: "https://drive.google.com/file/d/1oraKOMZ5dqgy4JrFJCTzJmbcKfi6XUr_/view?usp=drive_link"
     homework:
       - text: "HW #4 due"
         url: ""
       - text: "HW #5 assigned"
-        url: ""
-    recording: []
+        url: "https://drive.google.com/file/d/1QXpUDuKXjdh4-NvuEGarGQdZWNdfqifB/view?usp=drive_link"
+    recording:
+      - label: "Lab recording 1"
+        url: "https://drive.google.com/file/d/1fafza_AQW-vvdfWqkV-fEUGcJLrBpDvf/view?usp=drive_link"
+      - label: "Lab recording 2"
+        url: "https://drive.google.com/file/d/1tqEau5cx4sDomGVi1NcUQS8cxfNhJE1i/view?usp=drive_link"
 
   - week: 7
     date: "Oct 21"
