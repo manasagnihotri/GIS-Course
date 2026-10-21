@@ -125,10 +125,10 @@ weeks:
     topic: "R for Spatial Data & Interactive Mapping"
     slides:
       label: "Slides"
-      url: ""
+      url: "https://docs.google.com/presentation/d/1uZvTlMN4dv9-P0unjGAKP2gg3AneDWrB/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 6 (ZIP)"
-      url: ""
+      url: "https://drive.google.com/file/d/1tLhb57CdHXeCwALh4LsmAa6aquVVfOQT/view?usp=drive_link"
     homework:
       - text: "Midterm distributed"
         url: ""
