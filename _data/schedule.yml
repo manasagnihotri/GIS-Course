@@ -115,10 +115,10 @@ weeks:
       - text: "HW 5 assigned"
         url: "https://drive.google.com/file/d/1QXpUDuKXjdh4-NvuEGarGQdZWNdfqifB/view?usp=drive_link"
     recording:
-      - label: "Lab recording 1"
+      - label: "Lab recording Geocoding"
         url: "https://drive.google.com/file/d/1fafza_AQW-vvdfWqkV-fEUGcJLrBpDvf/view?usp=drive_link"
-      - label: "Lab recording 2"
-        url: "https://drive.google.com/file/d/1tqEau5cx4sDomGVi1NcUQS8cxfNhJE1i/view?usp=drive_link"
+      - label: "Lab recording (NYC)"
+        url: "https://drive.google.com/file/d/14UCtx4SfWrrBkmVm8-m7FJX48YliU4s0/view?usp=drive_link"
 
   - week: 7
     date: "Oct 21"
@@ -132,7 +132,10 @@ weeks:
     homework:
       - text: "Midterm distributed"
         url: "https://drive.google.com/file/d/1ubdyCIa1e3mYDPoGetv8U_F1guWaV5uQ/view?usp=drive_link"
-    recording: []
+    recording: [
+      - label: "Lab recording"
+        url: "https://drive.google.com/file/d/1jFa_o9PvkceKJWMqMyLpSvVwDpBdDAMQ/view?usp=drive_link"
+    ]
 
   - week: 8
     date: "Oct 28"
