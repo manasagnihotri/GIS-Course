@@ -132,10 +132,9 @@ weeks:
     homework:
       - text: "Midterm distributed"
         url: "https://drive.google.com/file/d/1ubdyCIa1e3mYDPoGetv8U_F1guWaV5uQ/view?usp=drive_link"
-    recording: [
+    recording:
       - label: "Lab recording"
         url: "https://drive.google.com/file/d/1jFa_o9PvkceKJWMqMyLpSvVwDpBdDAMQ/view?usp=drive_link"
-    ]
 
   - week: 8
     date: "Oct 28"
