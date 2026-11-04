@@ -143,7 +143,7 @@ weeks:
       label: ""
       url: ""
     lab:
-      label: "Lab 7 (ZIP)"
+      label: ""
       url: ""
     homework:
       - text: "Midterm due"
@@ -157,10 +157,10 @@ weeks:
     topic: "Spatial Autocorrelation"
     slides:
       label: "Slides"
-      url: ""
+      url: "https://docs.google.com/presentation/d/1uZvTlMN4dv9-P0unjGAKP2gg3AneDWrB/edit?usp=sharing&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
-      label: "Lab 8 (ZIP)"
-      url: ""
+      label: "Lab 7 (ZIP)"
+      url: "https://drive.google.com/file/d/14D73_osAlCjSJJHDCzMrk_Ke-6_IFs1d/view?usp=drive_link"
     homework:
       - text: "HW 7 assigned"
         url: ""
