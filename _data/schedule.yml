@@ -173,7 +173,7 @@ weeks:
       label: "Slides"
       url: ""
     lab:
-      label: "Lab 9 (ZIP)"
+      label: ""
       url: ""
     homework:
       - text: "HW 7 due"
@@ -186,11 +186,11 @@ weeks:
     date: "Nov 18"
     topic: "Advanced Spatial Models"
     slides:
-      label: ""
-      url: ""
+      label: "Slides"
+      url: "https://docs.google.com/presentation/d/1Mm-77eztDr1t1CraamGsUJIdPtRxKSVL/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
       label: "Lab 10 (ZIP)"
-      url: ""
+      url: "https://drive.google.com/file/d/1jF36sR3ZrtM2V55P3vUy0gj8B8xV3uEP/view?usp=drive_link"
     homework: []
     recording: []
 
