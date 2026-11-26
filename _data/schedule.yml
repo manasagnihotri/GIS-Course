@@ -187,22 +187,22 @@ weeks:
     topic: "Advanced Spatial Models"
     slides:
       label: "Slides"
-      url: "https://docs.google.com/presentation/d/1Mm-77eztDr1t1CraamGsUJIdPtRxKSVL/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
+      url: ""
     lab:
-      label: "Lab 10 (ZIP)"
-      url: "https://drive.google.com/file/d/1jF36sR3ZrtM2V55P3vUy0gj8B8xV3uEP/view?usp=drive_link"
+      label: "Lab 9 (ZIP)"
+      url: "https://drive.google.com/file/d/1jMwxu_bjT9diS3EEoDP_mwbLlj6GgGVq/view?usp=drive_link"
     homework: []
     recording: []
 
   - week: 12
     date: "Nov 25"
-    topic: "Research Workshop"
+    topic: "Spatial analysis using R"
     slides:
-      label: ""
-      url: ""
+      label: "Slides"
+      url: "https://docs.google.com/presentation/d/1Mm-77eztDr1t1CraamGsUJIdPtRxKSVL/edit?usp=drive_link&ouid=105632661928110922735&rtpof=true&sd=true"
     lab:
-      label: "Lab 11 (ZIP)"
-      url: ""
+      label: "Lab 10 (ZIP)"
+      url: "https://drive.google.com/file/d/1jF36sR3ZrtM2V55P3vUy0gj8B8xV3uEP/view?usp=drive_link"
     homework:
       - text: "HW 8 due"
         url: ""
